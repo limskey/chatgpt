@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0192432829DA0D8900BCB7EF /* ChatterPiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192432729DA0D8900BCB7EF /* ChatterPiApp.swift */; };
+		0192432A29DA0D8900BCB7EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192432929DA0D8900BCB7EF /* ContentView.swift */; };
+		0192432C29DA0D8B00BCB7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0192432B29DA0D8B00BCB7EF /* Assets.xcassets */; };
+		0192433029DA0D8B00BCB7EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0192432F29DA0D8B00BCB7EF /* Preview Assets.xcassets */; };
+		0192433A29DA0D8C00BCB7EF /* ChatterPiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192433929DA0D8C00BCB7EF /* ChatterPiTests.swift */; };
+		0192434429DA0D8C00BCB7EF /* ChatterPiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192434329DA0D8C00BCB7EF /* ChatterPiUITests.swift */; };
+		0192434629DA0D8C00BCB7EF /* ChatterPiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192434529DA0D8C00BCB7EF /* ChatterPiUITestsLaunchTests.swift */; };
+		0192435329DA160100BCB7EF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192435229DA160100BCB7EF /* Constants.swift */; };
+		0192435529DA165E00BCB7EF /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192435429DA165E00BCB7EF /* OpenAIService.swift */; };
+		0192435829DA176E00BCB7EF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0192435729DA176E00BCB7EF /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0192433629DA0D8C00BCB7EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0192431C29DA0D8900BCB7EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0192432329DA0D8900BCB7EF;
+			remoteInfo = ChatterPi;
+		};
+		0192434029DA0D8C00BCB7EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0192431C29DA0D8900BCB7EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0192432329DA0D8900BCB7EF;
+			remoteInfo = ChatterPi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0192432429DA0D8900BCB7EF /* ChatterPi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatterPi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0192432729DA0D8900BCB7EF /* ChatterPiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterPiApp.swift; sourceTree = "<group>"; };
+		0192432929DA0D8900BCB7EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0192432B29DA0D8B00BCB7EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0192432D29DA0D8B00BCB7EF /* ChatterPi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatterPi.entitlements; sourceTree = "<group>"; };
+		0192432F29DA0D8B00BCB7EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0192433529DA0D8C00BCB7EF /* ChatterPiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatterPiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0192433929DA0D8C00BCB7EF /* ChatterPiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterPiTests.swift; sourceTree = "<group>"; };
+		0192433F29DA0D8C00BCB7EF /* ChatterPiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatterPiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0192434329DA0D8C00BCB7EF /* ChatterPiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterPiUITests.swift; sourceTree = "<group>"; };
+		0192434529DA0D8C00BCB7EF /* ChatterPiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterPiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0192435229DA160100BCB7EF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0192435429DA165E00BCB7EF /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0192432129DA0D8900BCB7EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0192435829DA176E00BCB7EF /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0192433229DA0D8C00BCB7EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0192433C29DA0D8C00BCB7EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0192431B29DA0D8900BCB7EF = {
+			isa = PBXGroup;
+			children = (
+				0192432629DA0D8900BCB7EF /* ChatterPi */,
+				0192433829DA0D8C00BCB7EF /* ChatterPiTests */,
+				0192434229DA0D8C00BCB7EF /* ChatterPiUITests */,
+				0192432529DA0D8900BCB7EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0192432529DA0D8900BCB7EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0192432429DA0D8900BCB7EF /* ChatterPi.app */,
+				0192433529DA0D8C00BCB7EF /* ChatterPiTests.xctest */,
+				0192433F29DA0D8C00BCB7EF /* ChatterPiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0192432629DA0D8900BCB7EF /* ChatterPi */ = {
+			isa = PBXGroup;
+			children = (
+				0192432729DA0D8900BCB7EF /* ChatterPiApp.swift */,
+				0192432929DA0D8900BCB7EF /* ContentView.swift */,
+				0192435429DA165E00BCB7EF /* OpenAIService.swift */,
+				0192435229DA160100BCB7EF /* Constants.swift */,
+				0192432B29DA0D8B00BCB7EF /* Assets.xcassets */,
+				0192432D29DA0D8B00BCB7EF /* ChatterPi.entitlements */,
+				0192432E29DA0D8B00BCB7EF /* Preview Content */,
+			);
+			path = ChatterPi;
+			sourceTree = "<group>";
+		};
+		0192432E29DA0D8B00BCB7EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0192432F29DA0D8B00BCB7EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0192433829DA0D8C00BCB7EF /* ChatterPiTests */ = {
+			isa = PBXGroup;
+			children = (
+				0192433929DA0D8C00BCB7EF /* ChatterPiTests.swift */,
+			);
+			path = ChatterPiTests;
+			sourceTree = "<group>";
+		};
+		0192434229DA0D8C00BCB7EF /* ChatterPiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0192434329DA0D8C00BCB7EF /* ChatterPiUITests.swift */,
+				0192434529DA0D8C00BCB7EF /* ChatterPiUITestsLaunchTests.swift */,
+			);
+			path = ChatterPiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0192432329DA0D8900BCB7EF /* ChatterPi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0192434929DA0D8C00BCB7EF /* Build configuration list for PBXNativeTarget "ChatterPi" */;
+			buildPhases = (
+				0192432029DA0D8900BCB7EF /* Sources */,
+				0192432129DA0D8900BCB7EF /* Frameworks */,
+				0192432229DA0D8900BCB7EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatterPi;
+			packageProductDependencies = (
+				0192435729DA176E00BCB7EF /* Alamofire */,
+			);
+			productName = ChatterPi;
+			productReference = 0192432429DA0D8900BCB7EF /* ChatterPi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0192433429DA0D8C00BCB7EF /* ChatterPiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0192434C29DA0D8C00BCB7EF /* Build configuration list for PBXNativeTarget "ChatterPiTests" */;
+			buildPhases = (
+				0192433129DA0D8C00BCB7EF /* Sources */,
+				0192433229DA0D8C00BCB7EF /* Frameworks */,
+				0192433329DA0D8C00BCB7EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0192433729DA0D8C00BCB7EF /* PBXTargetDependency */,
+			);
+			name = ChatterPiTests;
+			productName = ChatterPiTests;
+			productReference = 0192433529DA0D8C00BCB7EF /* ChatterPiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0192433E29DA0D8C00BCB7EF /* ChatterPiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0192434F29DA0D8C00BCB7EF /* Build configuration list for PBXNativeTarget "ChatterPiUITests" */;
+			buildPhases = (
+				0192433B29DA0D8C00BCB7EF /* Sources */,
+				0192433C29DA0D8C00BCB7EF /* Frameworks */,
+				0192433D29DA0D8C00BCB7EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0192434129DA0D8C00BCB7EF /* PBXTargetDependency */,
+			);
+			name = ChatterPiUITests;
+			productName = ChatterPiUITests;
+			productReference = 0192433F29DA0D8C00BCB7EF /* ChatterPiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0192431C29DA0D8900BCB7EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0192432329DA0D8900BCB7EF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0192433429DA0D8C00BCB7EF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0192432329DA0D8900BCB7EF;
+					};
+					0192433E29DA0D8C00BCB7EF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0192432329DA0D8900BCB7EF;
+					};
+				};
+			};
+			buildConfigurationList = 0192431F29DA0D8900BCB7EF /* Build configuration list for PBXProject "ChatterPi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0192431B29DA0D8900BCB7EF;
+			packageReferences = (
+				0192435629DA176E00BCB7EF /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 0192432529DA0D8900BCB7EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0192432329DA0D8900BCB7EF /* ChatterPi */,
+				0192433429DA0D8C00BCB7EF /* ChatterPiTests */,
+				0192433E29DA0D8C00BCB7EF /* ChatterPiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0192432229DA0D8900BCB7EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0192433029DA0D8B00BCB7EF /* Preview Assets.xcassets in Resources */,
+				0192432C29DA0D8B00BCB7EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0192433329DA0D8C00BCB7EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0192433D29DA0D8C00BCB7EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0192432029DA0D8900BCB7EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0192432A29DA0D8900BCB7EF /* ContentView.swift in Sources */,
+				0192432829DA0D8900BCB7EF /* ChatterPiApp.swift in Sources */,
+				0192435329DA160100BCB7EF /* Constants.swift in Sources */,
+				0192435529DA165E00BCB7EF /* OpenAIService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0192433129DA0D8C00BCB7EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0192433A29DA0D8C00BCB7EF /* ChatterPiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0192433B29DA0D8C00BCB7EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0192434429DA0D8C00BCB7EF /* ChatterPiUITests.swift in Sources */,
+				0192434629DA0D8C00BCB7EF /* ChatterPiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0192433729DA0D8C00BCB7EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0192432329DA0D8900BCB7EF /* ChatterPi */;
+			targetProxy = 0192433629DA0D8C00BCB7EF /* PBXContainerItemProxy */;
+		};
+		0192434129DA0D8C00BCB7EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0192432329DA0D8900BCB7EF /* ChatterPi */;
+			targetProxy = 0192434029DA0D8C00BCB7EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0192434729DA0D8C00BCB7EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0192434829DA0D8C00BCB7EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0192434A29DA0D8C00BCB7EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChatterPi/ChatterPi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatterPi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brass-Monkey-Solutions.ChatterPi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0192434B29DA0D8C00BCB7EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChatterPi/ChatterPi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatterPi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brass-Monkey-Solutions.ChatterPi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0192434D29DA0D8C00BCB7EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brass-Monkey-Solutions.ChatterPiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatterPi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatterPi";
+			};
+			name = Debug;
+		};
+		0192434E29DA0D8C00BCB7EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brass-Monkey-Solutions.ChatterPiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatterPi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatterPi";
+			};
+			name = Release;
+		};
+		0192435029DA0D8C00BCB7EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brass-Monkey-Solutions.ChatterPiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatterPi;
+			};
+			name = Debug;
+		};
+		0192435129DA0D8C00BCB7EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brass-Monkey-Solutions.ChatterPiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatterPi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0192431F29DA0D8900BCB7EF /* Build configuration list for PBXProject "ChatterPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0192434729DA0D8C00BCB7EF /* Debug */,
+				0192434829DA0D8C00BCB7EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0192434929DA0D8C00BCB7EF /* Build configuration list for PBXNativeTarget "ChatterPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0192434A29DA0D8C00BCB7EF /* Debug */,
+				0192434B29DA0D8C00BCB7EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0192434C29DA0D8C00BCB7EF /* Build configuration list for PBXNativeTarget "ChatterPiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0192434D29DA0D8C00BCB7EF /* Debug */,
+				0192434E29DA0D8C00BCB7EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0192434F29DA0D8C00BCB7EF /* Build configuration list for PBXNativeTarget "ChatterPiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0192435029DA0D8C00BCB7EF /* Debug */,
+				0192435129DA0D8C00BCB7EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0192435629DA176E00BCB7EF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0192435729DA176E00BCB7EF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0192435629DA176E00BCB7EF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0192431C29DA0D8900BCB7EF /* Project object */;
+}
